@@ -1,0 +1,151 @@
+.card-img-top{
+    width: 90%;
+    padding:50px 50px ;
+}
+.phones .card, .laptop .card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.phones .card:hover{
+    box-shadow: 5px 5px 20px rgb(175, 111, 111);
+} 
+
+.laptop .card:hover{
+    box-shadow: 5px 5px 20px rgb(175, 111, 111);
+}
+
+.phones .card-footer, .laptop .card-footer{
+    background-color: white ;
+    border-top: none ;
+    padding: 30px 140px;
+   
+}
+
+.buy-button{
+    border: none;
+    background-image: linear-gradient(to bottom, #ababab, #000000);
+    color: white;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.phones .card-body, .laptop .card-body{
+   
+    padding: 10px 60px ;
+  text-align: center;
+}
+
+.buy-button:hover{
+    background-image: linear-gradient(45deg, #000000, #ababab);
+}
+
+.container{
+    margin-bottom: 50px;
+
+}
+ .phones .hdline,  .laptop .hdline{
+    padding-bottom: 40px;
+}
+h4,h3{
+    color:rgb(218, 10, 10)
+}
+.half-width{
+    width: 40%;
+}
+
+.bg-img {
+    position: relative; 
+     overflow: visible;
+     background-image: url("images/bg-1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+  }
+  
+  .corner-img {
+    position: absolute;
+    left: -60px;      /* ektu container-er baire */
+    bottom: -5px;    /* niche dike ektu beriye thakbe */
+    width: 150px;     /* iccha moto width set koro */
+    z-index: 1;       /* z-index jate carousel er niche na chole jay */
+  }
+  .img1{
+    background-color: #ffffff;
+    height:210px;
+    width:230px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  box-shadow: 10px 10px 20px rgb(209, 207, 207);
+  border-radius: 10%;
+  margin-left: 300px;
+  }
+  .img2{
+    background-color: #ffffff;
+    height:210px;
+    width:230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px rgb(209, 207, 207);
+    border-radius: 10%;
+    margin-right: auto;
+    margin-left: auto;  
+    margin-top: -80px;     /* 🟡 lift it up */
+ 
+  }
+  .img3{
+    background-color: #ffffff;
+    height:210px;
+    width:230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 10px 10px 20px rgb(209, 207, 207);
+    border-radius: 10%;
+    margin-left: 300px;
+    margin-top: -120px; 
+   
+  }
+.img1:hover{
+    box-shadow: 5px 5px 20px rgb(175, 111, 111);
+}
+.img2:hover{
+    box-shadow: 5px 5px 20px rgb(175, 111, 111);
+}
+.img3:hover{
+    box-shadow: 5px 5px 20px rgb(175, 111, 111);
+}
+.categories{
+    margin-top: 100px ;
+}
+/* .ct{
+    text-align: center;
+    margin-bottom: 100px;
+} */
+.ct {
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative; /* needed for ::after */
+  }
+  
+  .ct::after {
+    content: '';
+    display: block;
+    width: 150px;         /* line width */
+    height: 10px;         /* line thickness */
+    background-color: rgb(233, 96, 23);
+    margin: 15px auto 0; /* gap from text and center align */
+    border-radius: 10px;  /* optional: round corners */
+    background-image: linear-gradient(45deg, rgb(255, 209, 185), rgb(233, 96, 23));
+  }
+  
+  .img4:hover{
+    box-shadow: 5px 5px 20px rgb(239, 219, 219);
+
+  }
