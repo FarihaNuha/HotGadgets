@@ -1,6 +1,6 @@
 .bg-clr{
     background-color: #fff8f8;
-    border-radius: 10px;
+   
 }
 
 .card-img-top{
@@ -74,7 +74,7 @@ h4,h3{
   .corner-img {
     position: absolute;
     left: -60px;      /* ektu container-er baire */
-    bottom: -5px;    /* niche dike ektu beriye thakbe */
+    bottom: 150px;    /* niche dike ektu beriye thakbe */
     width: 150px;     /* iccha moto width set koro */
     z-index: 1;       /* z-index jate carousel er niche na chole jay */
   }
